@@ -11,6 +11,7 @@ Ivan Kutskir氏の「高速ガウシアンブラー」でぼかしを掛けま�
 ## コード
 
 ```js
+// Copyright (C) Ivan Kutskir. License: MIT
 function boxesForGauss(sigma, n)  // standard deviation, number of boxes
 {
     var wIdeal = Math.sqrt((12*sigma*sigma/n)+1);  // Ideal averaging filter width
