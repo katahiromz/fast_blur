@@ -59,6 +59,7 @@ function boxBlurT_4 (scl, tcl, w, h, r) {
 }
 
 /**
+ * Ivan Kutskir氏の「高速ガウシアンブラー」を施す。
  * @param {CanvasRenderingContext2D} ctx - 描画先の 2D コンテキスト
  * @param {number} x - 描画領域の左上 x 座標
  * @param {number} y - 描画領域の左上 y 座標
